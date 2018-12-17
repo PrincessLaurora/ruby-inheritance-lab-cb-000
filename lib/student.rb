@@ -5,7 +5,7 @@ class Student < User
   end
 
   def learn(stringknow)
-    @knowledge << strinhknow
+    @knowledge << stringknow
   end
 
 
