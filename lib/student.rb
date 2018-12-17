@@ -8,5 +8,9 @@ class Student < User
     @knowledge << stringknow
   end
 
+  def knowledge
+    @knowledge
+  end
 
+  
 end
